@@ -10,3 +10,7 @@ export const signinSchema = z.object({
     email: z.string(),
     password: z.string()
 })
+
+export const createConversationSchema = z.object({
+    title:z.string().optional()
+})
